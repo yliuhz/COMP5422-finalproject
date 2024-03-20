@@ -1,16 +1,9 @@
 
-To make a sample ICCV paper, copy the contents of this directory
-somewhere, and type
 
- latex egpaper_final
+# Context-Driven Generative Editing of Facial Expressions
 
-or 
+### 2024/03/20
 
- pdflatex egpaper_final
+Prof: Directly train a model generating landmarks from texts. There are some existing diffusion Audio2landmark models now. 
 
 
-To make a copy with the review style (for anonymous review, and
-including line numbers, replace "egpaper_final" with
-"egpaper_for_review" in the commands above.
-
-Note that in some environments, it may be necessary to run bibtex explicitly (bibtex egpaper_final).
