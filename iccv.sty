@@ -86,18 +86,19 @@
 \def\@maketitle
    {
    \newpage
-   \null
-   \vskip .375in
+   %\null
+   %\vskip .375in
+   %\vskip .1in
    \begin{center}
       {\Large \bf \@title \par}
       % additional two empty lines at the end of the title
-      \vspace*{24pt}
+      \vspace*{1pt}
       {
       \large
       \lineskip .5em
       \begin{tabular}[t]{c}
          \ificcvfinal\@author\else Anonymous ICCV submission\\
-         \vspace*{1pt}\\%This space will need to be here in the final copy, so don't squeeze it out for the review copy.
+         \vspace*{3pt}\\%This space will need to be here in the final copy, so don't squeeze it out for the review copy.
 Paper ID \iccvPaperID \fi
       \end{tabular}
       \par
@@ -105,7 +106,7 @@ Paper ID \iccvPaperID \fi
       % additional small space at the end of the author name
       \vskip .5em
       % additional empty line at the end of the title block
-      \vspace*{12pt}
+      \vspace*{1pt}
    \end{center}
    }
 
