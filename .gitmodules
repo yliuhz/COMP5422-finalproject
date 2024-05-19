@@ -1,0 +1,3 @@
+[submodule "src/InstantID"]
+	path = src/InstantID
+	url = https://github.com/yliuhz/InstantID
